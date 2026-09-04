@@ -1,0 +1,17 @@
+{
+  "name": "secoder-student-intro",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS='--no-experimental-webstorage' slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^51.1.0",
+    "@slidev/theme-default": "latest",
+    "vue": "^3.5.13"
+  },
+  "packageManager": "pnpm@10.5.2"
+}
+
