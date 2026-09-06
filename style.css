@@ -1,0 +1,7 @@
+/*
+ * Slidev 51.8.x keeps the goto result list rendered after the dialog closes.
+ * The dialog input is disabled in the closed state, so hide the stale list too.
+ */
+#slidev-goto-dialog:has(#slidev-goto-input:disabled) .autocomplete-list {
+  display: none;
+}
